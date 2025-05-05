@@ -1,0 +1,31 @@
+{
+  "name": "website-parser",
+  "version": "1.0.0",
+  "description": "generates a PDF document containing the 10 longest words found on the page",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndreyTimofeye8/website-parser.git"
+  },
+  "author": "Andrey Timofeev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AndreyTimofeye8/website-parser/issues"
+  },
+  "homepage": "https://github.com/AndreyTimofeye8/website-parser#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "pdfkit": "^0.17.1",
+    "puppeteer": "^24.8.0",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/pdfkit": "^0.13.9",
+    "ts-node": "^10.9.2"
+  }
+}
